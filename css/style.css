@@ -70,7 +70,7 @@ button {
 
 /*  FEATURED PROJECT  */
 
-.featured h2 {
+ h2 {
     color: #399bd1;
     margin-bottom: 20px;
     font-size: 1.7rem;
@@ -83,12 +83,17 @@ button {
 
 img {
     width: 100%;
+    opacity: 0.7;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .product-categ h3 {
     color: #399bd1;
-    font-size: 1.3rem;
-    font-weight: bold;
+    
 }
 
 .product-categ ul li {
@@ -96,7 +101,49 @@ img {
     color: rgba(0, 0, 0, 0.7);
 }
 
+/*  PROJECTS  */
+
+.projects {
+    margin-bottom: 5.85rem;
+}
+
+/*  LEARN MORE  */
+
+.learn-more {
+    background-color: #f3f3f3;
+    
+}
+
+.learn-more .container {
+    padding: 5.2rem 0;
+    margin: 0 auto;
+    max-width: 44rem;
+    text-align: center;
+}
+
+h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+}
+
+.learn-more .container p {
+    max-width: 42rem;
+}
+
+/*  MEDIA QUERIES */
+
+/*MOBILES*/
 
 
-
+@media only screen and (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 5.7rem;
+    }
+    
+    .jumbotron {
+        background-position: 68% 35%;
+    }
+    
+}
 
